@@ -991,7 +991,7 @@ input, select, textarea {
 		#thumbnails article {
 			position: relative;
 			width: 25%;
-			background: #F0F0F0;
+			background-color: #1D1F20;
 			outline: 0;
 			border-radius: 0.25em;
 		}
@@ -1042,6 +1042,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1280px) {
+			#thumbnails {
+				width: 93%;
+			}
+
 			#thumbnails article {
 				width: 33%;
 				border-radius: 0.25em;
@@ -1052,6 +1056,10 @@ input, select, textarea {
 			#thumbnails article {
 				width: 50%;
 				border-radius: 0.25em;
+			}
+
+			#thumbnails {
+				width: 91%;
 			}
 		}
 
@@ -1136,7 +1144,7 @@ input, select, textarea {
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
 		top: 0;
-		width: calc(100% - 55em);
+		width: calc(100% - 51em);
 		height: 100%;
 		left: 0;
 	}
@@ -1226,11 +1234,11 @@ input, select, textarea {
 		}
 
 			#viewer .slide .caption {
-				background-image: -moz-linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 80%, rgba(16,16,16,0.025));
-				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 80%, rgba(16,16,16,0.025));
-				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 80%, rgba(16,16,16,0.025));
-				background-image: linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 80%, rgba(16,16,16,0.025));
-				padding: 2em 4em 4em 4em;
+				background-image: -moz-linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 60%, rgba(16,16,16,0.025));
+				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 60%, rgba(16,16,16,0.025));
+				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 60%, rgba(16,16,16,0.025));
+				background-image: linear-gradient(bottom, rgba(16,16,16,0.85), rgba(16,16,16,0.45) 60%, rgba(16,16,16,0.025));
+				padding: 2em 4em 6em 4em;
 				position: absolute;
 				bottom: 0;
 				left: 0;
@@ -1321,12 +1329,16 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#viewer {
-				width: calc(100% - 35em);
+				width: calc(100% - 38.5em);
 			}
 
 		}
 
 		@media screen and (max-width: 980px) {
+
+			#viewer {
+				width: calc(100% - 27.5em);
+			}
 
 				#viewer .inner .toggle {
 					-moz-transition: opacity 0.75s ease;
