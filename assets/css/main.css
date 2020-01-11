@@ -1417,14 +1417,14 @@ input, select, textarea {
 	left: calc(-1 * var(--borderWidth));
 	height: calc(100% + var(--borderWidth) * 2);
 	width: calc(100% + var(--borderWidth) * 2);
-	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	background: linear-gradient(75deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
 	border-radius: calc(2 * var(--borderWidth));
 	z-index: -1;
-	animation: animatedgradient 15s ease alternate infinite;
+	/* animation: animatedgradient 15s ease alternate infinite; */
 	background-size: 300% 300%;
 }
 
-
+/* 
 @keyframes animatedgradient {
 	0% {
 		background-position: 0% 50%;
@@ -1435,5 +1435,5 @@ input, select, textarea {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 		  
