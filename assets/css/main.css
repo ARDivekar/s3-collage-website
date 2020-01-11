@@ -985,7 +985,9 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 1.25em;
+		margin: 0 auto;
+		width: 88%;
+		padding-right: 0.95em;
 	}
 
 		#thumbnails article {
@@ -1043,7 +1045,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 			#thumbnails {
-				width: 93%;
+				padding-right: 0.6em;
 			}
 
 			#thumbnails article {
@@ -1053,17 +1055,21 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			#thumbnails {
+				padding-right: 0em;
+			}
+
 			#thumbnails article {
 				width: 50%;
 				border-radius: 0.25em;
 			}
-
-			#thumbnails {
-				width: 91%;
-			}
 		}
 
 		@media screen and (max-width: 480px) {
+			#thumbnails {
+				margin: 0 auto;
+				width: 23.8em;
+			}
 
 			#thumbnails article .thumbnail:before {
 				display: none;
