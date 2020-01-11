@@ -201,24 +201,24 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 24pt;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 16pt;
 		font-weight: 500;
 	}
 
 	h4 {
-		font-size: 0.9em;
+		font-size: 12.5pt;
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 10.75pt;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 8.5pt;
 	}
 
 	sub {
@@ -1251,6 +1251,7 @@ input, select, textarea {
 				width: 100%;
 				color: rgba(255, 255, 255, 0.65);
 				z-index: 1;
+				overflow-y: scroll;
 			}
 
 				#viewer .slide .caption h2, #viewer .slide .caption h3, #viewer .slide .caption h4, #viewer .slide .caption h5, #viewer .slide .caption h6 {
